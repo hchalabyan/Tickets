@@ -1,0 +1,36 @@
+.Card{
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 50px -35px rgba(0,0,0,40%);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  .AirlineLogoWrapper{
+    width: 20%;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    padding-right: 15px;
+    img{
+      width: 80%;
+    }
+    button{
+      background: #ff6d00;
+      border-radius: 5px;
+      padding: 10px;
+      border: none;
+      outline: none;
+      color: white;
+      display: flex;
+      margin-right: auto;
+      margin-top: 10px;
+      width: 100%;
+      text-align: center;
+      text-transform: capitalize;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  .TimeWrapper{
+    width: 70%;
+  }
+}

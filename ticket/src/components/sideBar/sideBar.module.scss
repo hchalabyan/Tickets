@@ -1,0 +1,56 @@
+.SideBar{
+  width: 30%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 50px -35px rgba(0,0,0,40%);
+  padding: 10px;
+  box-sizing: border-box;
+  p{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: grey;
+    text-align: left;
+  }
+  .TabWrapper{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 15px 15px 15px 0;
+    .active{
+      background: #2196f3;
+      color: white;
+      border: 1px solid #2196f3;
+
+    }
+    .inactive{
+      color:#2196f3;
+      border: 1px solid rgba(128, 128, 128, 0.5);
+    }
+    a{
+      flex:0 0 33.333%;
+      padding: 10px;
+      box-sizing: border-box;
+      text-decoration: none;
+      &:first-of-type{
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+      }
+      &:last-of-type{
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+      }
+    }
+  }
+  .CheckboxWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    label{
+      display: flex;
+      span{
+        font-size: 12px;
+      }
+    }
+
+  }
+}
